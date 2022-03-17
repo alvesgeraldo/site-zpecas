@@ -97,8 +97,11 @@ body{
 .secoes p {
     font-size: 1em;
     font-weight: 400;
-    text-indent: 20px;
     color: #000;
+}
+
+#quem-somos p {
+    text-indent: 20px;
 }
 
 .secoes h3 {
@@ -139,7 +142,7 @@ body{
 }
 
 .btn-outline-primary:hover{
-    background-color: #c4c4c4;
+    background-color: #e5e5e5;
     border-color: #143A51;
 }
 
@@ -178,4 +181,156 @@ footer {
 
 .dev {
     font-size: 0.7em;
+}
+
+
+
+/* Configurações Breakpoints */
+
+@media (max-width: 575.98px) {
+    .capa h1 {
+        font-size: 2.5em;
+        text-align: center;
+    }
+
+    .capa h1::after{
+        width: 100px;
+        margin: auto;
+        margin-top: 15px;
+    }
+
+    .capa p {
+        font-size: 1em;
+        text-align: center;
+    }
+
+    .gradient {
+        height: 400px;
+        padding-top: 100px;
+    }
+
+    .secoes h2 {
+        font-size: 2em;
+    }
+
+    .secoes h2::after{
+        width: 100px;
+        margin-top: 15px;
+    }
+
+    #quem-somos img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    #produtos img {
+        width: 200px;
+        height: 200px;
+    }
+
+    #produtos p {
+        margin-bottom: 30px;
+    }
+
+    .botoes {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    #servicos h3 {
+        font-size: 1.2em;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    #contato h4 {
+        font-size: 1.5em;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    #contato p {
+        text-align: center;
+    }
+
+    iframe {
+        margin-top: 30px;
+        width: 100%;
+        height: 100%;
+    }
+
+    .box-contatos h4 {
+        margin-bottom: 5px;
+    }
+
+    .box-sociais {
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .capa h1 {
+        font-size: 2.8em;
+        text-align: center;
+    }
+
+    .capa h1::after{
+        width: 120px;
+        margin: auto;
+        margin-top: 15px;
+    }
+
+    .capa p {
+        font-size: 1em;
+    }
+
+    .gradient {
+        height: 400px;
+        padding-top: 100px;
+    }
+
+    .botoes {
+        width: 100%;
+        margin-top: 30px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .capa h1 {
+        font-size: 3em;
+        text-align: center;
+    }
+
+    .capa p {
+        font-size: 1em;
+        margin: auto;
+        margin-top: 15px;
+    }
+
+    .gradient {
+        height: 400px;
+        padding-top: 100px;
+    }
+
+    #quem-somos img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .botoes {
+        width: 100%;
+        margin-top: 30px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .capa h1 {
+        font-size: 3em;
+    }
+
+    .capa h1::after{
+        width: 140px;
+    }
 }
